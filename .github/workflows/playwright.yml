@@ -8,7 +8,7 @@ jobs:
     container:
       image: mcr.microsoft.com/playwright:v1.29.1-focal
       env:
-        ADMIN_PASSWORD: ${{ secret.ADMIN_PASSWORD }}
+        ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
     steps:
       - name: Checkout repositroy
         uses: actions/checkout@v2
