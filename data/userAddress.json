@@ -1,0 +1,10 @@
+[
+  {
+    "firstName": "Tester",
+    "lastName": "Mctest",
+    "street": "Amsterdamseweg",
+    "postcode": "6732PL",
+    "city": "Amsterdam",
+    "country": "Netherlands"
+  }
+]
